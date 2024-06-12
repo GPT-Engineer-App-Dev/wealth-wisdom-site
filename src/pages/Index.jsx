@@ -2,31 +2,31 @@ import { Box, Container, Flex, Heading, Link, Text, VStack } from "@chakra-ui/re
 
 const Index = () => {
   return (
-    <Box>
+    <Box bg="#fff1e5">
       {/* Header */}
-      <Box as="header" bg="gray.800" color="white" py={4}>
+      <Box as="header" bg="#fff1e5" color="black" py={4}>
         <Container maxW="container.xl">
           <Flex justify="space-between" align="center">
             <Heading as="h1" size="lg">
               Financial Times
             </Heading>
             <Flex>
-              <Link href="#" mx={2} color="white">
+              <Link href="#" mx={2} color="black">
                 Home
               </Link>
-              <Link href="#" mx={2} color="white">
+              <Link href="#" mx={2} color="black">
                 World
               </Link>
-              <Link href="#" mx={2} color="white">
+              <Link href="#" mx={2} color="black">
                 Business
               </Link>
-              <Link href="#" mx={2} color="white">
+              <Link href="#" mx={2} color="black">
                 Tech
               </Link>
-              <Link href="#" mx={2} color="white">
+              <Link href="#" mx={2} color="black">
                 Markets
               </Link>
-              <Link href="#" mx={2} color="white">
+              <Link href="#" mx={2} color="black">
                 Opinion
               </Link>
             </Flex>
@@ -65,18 +65,18 @@ const Index = () => {
       </Container>
 
       {/* Footer */}
-      <Box as="footer" bg="gray.800" color="white" py={4} mt={8}>
+      <Box as="footer" bg="#fff1e5" color="black" py={4} mt={8}>
         <Container maxW="container.xl">
           <Flex justify="space-between" align="center">
             <Text>&copy; 2023 Financial Times</Text>
             <Flex>
-              <Link href="#" mx={2} color="white">
+              <Link href="#" mx={2} color="black">
                 About Us
               </Link>
-              <Link href="#" mx={2} color="white">
+              <Link href="#" mx={2} color="black">
                 Contact
               </Link>
-              <Link href="#" mx={2} color="white">
+              <Link href="#" mx={2} color="black">
                 Privacy Policy
               </Link>
             </Flex>
